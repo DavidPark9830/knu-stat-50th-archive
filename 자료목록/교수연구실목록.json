@@ -1,0 +1,174 @@
+{
+  "title": "교수·연구실별 공개 자료",
+  "tables": [
+    [
+      [
+        "교수·연구실",
+        "확인한 공개 자료",
+        "이번 보완 내용·확인 범위"
+      ],
+      [
+        "이경은 연구실 독립 홈페이지 링크 미확인",
+        "경북대 공식 연구자 프로필",
+        "학과 교수·연구실 안내와 공식 연구자 프로필을 대조했다. 별도 독립 연구실 홈페이지나 사진첩의 공식 연결은 찾지 못했다. 연구자 프로필의 연구 목록을 확인했으며, 사진이 없다는 뜻은 아니다."
+      ],
+      [
+        "김용구 공간통계 연구실",
+        "국문 홈페이지 영문 홈페이지 활동 구성원",
+        "News·Activities·Members·공지·자료실을 확인했다. 홍승현의 2021 추계 포스터 최우수상 소속을 보완했고, 김용구 교수의 RISE ABB 분야 참여를 별도 기록했다."
+      ],
+      [
+        "김영민 통계적빅데이터 연구실",
+        "홈페이지 연구 과제 논문",
+        "재현·합성 자료 생성 및 AI 관련 과제의 주제·기간을 추가했다. 별도 행사 사진첩은 확인되지 않았다. 유진경·이주희 구두 수상은 학회 공식 공지로 대조했다."
+      ],
+      [
+        "송준모 시계열분석 및 확률과정 연구실",
+        "홈페이지 연구실 소개 프로필 CV",
+        "구성원·프로필·CV를 확인했다. Zixuan Liu·이정호 관련 기존 학회 수상 기록과 대조했고, 이미 보관된 수상은 다시 추가하지 않았다."
+      ],
+      [
+        "김병원 비유클리드 자료분석 연구실",
+        "홈페이지 사진첩 구성원 논문",
+        "2023 교수 우수논문발표상의 실제 수여·기념사진을 추가했다. 이제석의 소속을 보완하고, 확인 대기였던 김연주 포스터 장려상을 확정 목록으로 이동했다."
+      ],
+      [
+        "이효정 수리통계 모델링 연구실",
+        "홈페이지 구성원 사진첩 연구실 인스타그램",
+        "인스타그램 56개 게시물과 홈페이지·학생 공개 프로필을 대조했다. 추가 구두·포스터 수상, 해외 교수 방문·강의, 학회·연구캠프, 졸업·공동체 사진을 보완했다."
+      ],
+      [
+        "김명진 비모수함수추론 연구실",
+        "홈페이지 구성원 News 논문",
+        "Home·Members·News·Publications를 확인했다. News 본문은 비어 있었고 별도 새 시상 사진은 확보하지 못했다. 기존 박승준 학회 수상과 연구실 구성원을 대조했다."
+      ],
+      [
+        "고규형 베이지안통계학습 연구실",
+        "홈페이지 News 구성원",
+        "News·구성원 소개와 이미 보관된 연구실 사진을 다시 대조했다. 기존 ISI 선출·ISBA 수상 사진의 중복을 피했다. 단순 학회 구두발표 소식을 구두발표 수상으로 바꾸지 않았다."
+      ]
+    ]
+  ],
+  "sources": [
+    {
+      "label": "현직 교수 명단",
+      "url": "https://home.knu.ac.kr/HOME/stat/sub.htm?nav_code=sta1623646332"
+    },
+    {
+      "label": "학과 연구실 안내",
+      "url": "https://home.knu.ac.kr/HOME/stat/sub.htm?nav_code=sta1623646790"
+    },
+    {
+      "label": "경북대 공식 연구자 프로필",
+      "url": "https://research.knu.ac.kr/en/persons/kyeong-eun-lee/"
+    },
+    {
+      "label": "국문 홈페이지",
+      "url": "https://sites.google.com/site/spatialstatknu"
+    },
+    {
+      "label": "영문 홈페이지",
+      "url": "https://spatialstat.knu.ac.kr/"
+    },
+    {
+      "label": "활동",
+      "url": "https://sites.google.com/site/spatialstatknu/spatial-statistics-lab/activities"
+    },
+    {
+      "label": "구성원",
+      "url": "https://sites.google.com/site/spatialstatknu/spatial-statistics-lab/members"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://sites.google.com/view/kymmyself"
+    },
+    {
+      "label": "연구",
+      "url": "https://sites.google.com/view/kymmyself/research"
+    },
+    {
+      "label": "과제",
+      "url": "https://sites.google.com/view/kymmyself/projects"
+    },
+    {
+      "label": "논문",
+      "url": "https://sites.google.com/view/kymmyself/publications"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://sites.google.com/view/stopknu/"
+    },
+    {
+      "label": "연구실 소개",
+      "url": "https://sites.google.com/view/stopknu/연구실-소개"
+    },
+    {
+      "label": "프로필",
+      "url": "https://sites.google.com/view/stopknu/프로필"
+    },
+    {
+      "label": "CV",
+      "url": "https://sites.google.com/view/stopknu/cveng"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://sites.google.com/view/ns208/home"
+    },
+    {
+      "label": "사진첩",
+      "url": "https://sites.google.com/view/ns208/more/gallery"
+    },
+    {
+      "label": "구성원",
+      "url": "https://sites.google.com/view/ns208/members"
+    },
+    {
+      "label": "논문",
+      "url": "https://sites.google.com/view/ns208/publications"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://sites.google.com/view/hjleeknu"
+    },
+    {
+      "label": "구성원",
+      "url": "https://sites.google.com/view/hjleeknu/members"
+    },
+    {
+      "label": "사진첩",
+      "url": "https://sites.google.com/view/hjleeknu/labpicture"
+    },
+    {
+      "label": "연구실 인스타그램",
+      "url": "https://www.instagram.com/hjlee_lab/"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://sites.google.com/view/mjkimknu"
+    },
+    {
+      "label": "구성원",
+      "url": "https://sites.google.com/view/mjkimknu/members"
+    },
+    {
+      "label": "News",
+      "url": "https://sites.google.com/view/mjkimknu/news"
+    },
+    {
+      "label": "논문",
+      "url": "https://sites.google.com/view/mjkimknu/publications"
+    },
+    {
+      "label": "홈페이지",
+      "url": "https://bayesiangoh.knu.ac.kr/"
+    },
+    {
+      "label": "News",
+      "url": "https://bayesiangoh.knu.ac.kr/news"
+    },
+    {
+      "label": "구성원",
+      "url": "https://bayesiangoh.knu.ac.kr/about-us/members"
+    }
+  ]
+}
