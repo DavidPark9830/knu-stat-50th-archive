@@ -2,7 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import json,hashlib,sys,collections
+import json,hashlib,sys,collections,os,unicodedata
 ROOT=Path(__file__).resolve().parents[1]
 if len(sys.argv)>1:ROOT=Path(sys.argv[1])
 class Document(HTMLParser):
@@ -35,4 +35,13 @@ for folder in ['자료목록','웹문서']:
   if f.is_file():
    t=f.read_text()
    for forbidden in ['/Volumes/','/Users/','세상은 지금','대본/','더빙비교/','access_token','Bearer ']:assert forbidden not in t,(str(f),forbidden)
+
+# 확장자 앞의 점 외에는 파일명에 점·문장부호를 사용하지 않습니다.
+for base,dirs,names in os.walk(ROOT):
+ dirs[:]=[d for d in dirs if not d.startswith('.')]
+ for name in names:
+  if name.startswith('.'):continue
+  stem=unicodedata.normalize('NFC',Path(name).stem)
+  assert all(c.isalnum() or c in '_-' for c in stem),('파일명 기호',str(Path(base)/name))
+
 print(f'검사 완료: 사진 {d.photos:,}장, 조사 기록 {d.records:,}건, 모든 사진 SHA-256 일치, 내부 링크 정상')
