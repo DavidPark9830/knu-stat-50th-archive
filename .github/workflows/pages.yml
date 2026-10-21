@@ -19,13 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: 문서와 파일 참조 검사
-        run: python3 tools/check.py
+        run: python3 문서관리도구/check.py
       - uses: actions/configure-pages@v5
       - name: 공개 웹문서 준비
         run: |
           mkdir .site
           cp index.html .nojekyll .site/
-          cp -R web thumbs docs data .site/
+          cp -R 웹문서파일 사진미리보기 관련원문문서 자료목록 .site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .site
